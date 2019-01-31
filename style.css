@@ -34,3 +34,8 @@ li {
     display: inline-block;
     padding: 0 20px;
 }
+
+li a {
+    text-decoration: none;
+    color: black;
+}
