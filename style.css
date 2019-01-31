@@ -1,0 +1,16 @@
+
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: lightcyan;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}    
+
+img {
+    width: 25%;
+    height: 25%;
+}
