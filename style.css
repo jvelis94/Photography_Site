@@ -40,7 +40,7 @@ li a {
     color: black;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 1000px) {
     .container {
         display: flex;
         width: 100%;
