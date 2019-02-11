@@ -44,3 +44,33 @@ li a {
     text-decoration: none;
     color: black;
 }
+
+@media (max-width: 1200px) {
+    h1, h3, form, header, li {
+        font-size: .80rem;
+    }
+
+    fieldset {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    h1, h3, form {
+        font-size: .80rem;
+    }
+    
+    fieldset {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    h1, h3, form {
+        font-size: .80rem;
+    }
+    
+    fieldset {
+        max-width: 100%;
+    }
+}   
