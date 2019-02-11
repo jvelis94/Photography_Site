@@ -6,18 +6,17 @@
 
 .container {
     display: flex;
-    width: 100%;
-    justify-content: center;
     flex-wrap: wrap;
+    justify-content: space-around;
     align-items: flex-start;
-    position: relative;
-    top: 20px;
+    padding: 20px 15px;
         
 }    
 
 img {
-    width: 25%;
-    height: 25%;
+    max-width: 24%;
+    padding-top: 10px;
+    
 }
 
 header {
@@ -40,24 +39,44 @@ li a {
     color: black;
 }
 
-@media only screen and (max-width: 2700px) {
-    .container {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        flex-direction: column;
-        align-items: flex-start;
-        position: relative;
-        top: 20px;
-    }
 
+@media only screen and (max-width: 1200px) {
     img {
-        width: 100%;
-        height: 100%;
+        max-width: 32%;
     }
 
     li {
-        font-size: 50px;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Segoe UI';
+        display: inline-block;
+        padding: 0 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    img {
+        max-width: 49%;
+    }
+
+    li {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Segoe UI';
+        display: inline-block;
+        padding: 0 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+    img {
+        max-width: 99%;
+    }
+
+    li {
+        font-size: 25px;
         font-weight: bold;
         font-family: 'Segoe UI';
         display: inline-block;
