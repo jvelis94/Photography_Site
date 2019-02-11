@@ -52,25 +52,28 @@ li a {
 
     fieldset {
         max-width: 100%;
+        margin: 0 auto;
     }
 }
 
 @media (max-width: 800px) {
-    h1, h3, form {
+    h1, h3, form, header, li {
         font-size: .80rem;
     }
     
     fieldset {
         max-width: 100%;
+        margin: 0 auto;
     }
 }
 
 @media (max-width: 600px) {
-    h1, h3, form {
+    h1, h3, form, header, li {
         font-size: .80rem;
     }
     
     fieldset {
         max-width: 100%;
+        margin: 0 auto;
     }
 }   
