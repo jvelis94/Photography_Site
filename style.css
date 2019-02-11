@@ -40,7 +40,7 @@ li a {
 }
 
 
-@media screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
     img {
         max-width: 32%;
     }
@@ -55,7 +55,7 @@ li a {
     
 }
 
-@media screen and (max-width: 800px) {
+@media (max-width: 800px) {
     img {
         max-width: 49%;
     }
@@ -70,7 +70,7 @@ li a {
     
 }
 
-@media screen and (max-width: 600px) {
+@media (max-width: 600px) {
     img {
         max-width: 99%;
     }
